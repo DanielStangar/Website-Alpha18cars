@@ -25,6 +25,7 @@ font-size:20px;
 text-align:center;
 border: 2px solid;
 margin: 3px;}
+a:hover{color:rgb(238, 238, 148);}
 
 img {display:flex;
 padding: 20px;

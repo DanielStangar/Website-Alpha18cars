@@ -9,6 +9,8 @@
 h1{text-align:center;
 color:#260d0d;}
 
+img {width:100%;}
+
 /*Style inputs*/
 input[type=text], textarea{
     width:100%;
@@ -83,4 +85,6 @@ font-size:20px;
 text-align:center;
 border: 1px solid;
 margin: 3px;}
+
+a:hover{color:rgb(238, 238, 148);}
 

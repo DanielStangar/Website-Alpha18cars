@@ -24,6 +24,8 @@
         border: 1px solid;
         margin: 3px;}
 
+        a:hover{color:rgb(238, 238, 148);}
+
         
         img {
         max-width:100%;;

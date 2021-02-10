@@ -15,8 +15,9 @@ margin:auto;}
 .navbar {display:flex;
 background-color: #260d0d;
 max-width: 1342px;
-border:5px ridge #402721;
-margin-bottom: 5px;}
+border:5px ridge #bfaf8f;
+margin-bottom:5px;
+padding:3px;}
 
 
 a {display:block;
@@ -25,12 +26,19 @@ color:#a69076;
 font-size:20px;
 text-align:center;
 border: 1px solid;
-margin: 3px;}
+margin: 3px;
+text-decoration: none;}
+
+a:hover{color:rgb(238, 238, 148);}
+#SMS:hover{color:rgb(238, 238, 148);}
+
+
 
 img {max-width:100%;
 height:auto;
 border:6px ridge #bfaf8f;
 margin-bottom:5px;
+
 }
 
 h1 {color:rgb(238, 238, 148);
@@ -40,18 +48,32 @@ background-color: #260d0d;
 height:60px;
 padding:10px;
 max-width:1342px;
-border:5px ridge #402721;
+border:5px ridge #bfaf8f;
 margin-bottom: 5px;;}
 
+h2 {text-align:center;}
+
+#columnCall {background-color:#402721;color:rgb(238, 238, 148);}
+
+#columnEmail {background-color:#745b46;}
+
+#columnSMS {background-color:#bfaf8f;}
+
+#columnAreas {background-color:#402721;color:rgb(238, 238, 148);}
+
+#columnSMS a{color:#402721}
 
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%; 
   padding: 15px;
+  overflow:hidden;
+  height:330px;
+  
 }
 .row{max-width:1342px;
-border:5px ridge #402721;}
+border:5px ridge #bfaf8f;}
 
 /* Clear floats after the columns */
 .row:after {

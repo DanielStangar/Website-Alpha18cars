@@ -10,7 +10,7 @@ h1{text-align:center;
 color:#260d0d;}
 
 /*Style inputs*/
-input[type=text], textarea{
+input[type=text], textarea {
     width:100%;
     padding:12px;
     border: 2px solid #260d0d;
@@ -21,16 +21,18 @@ input[type=text], textarea{
 }
 
 input[type=submit]{
-    background-color: #260d0d;
+    background-color: #402721;
   color:#bfaf8f;
   padding: 12px 20px;
   border: 1px solid;
   border-color:#bfaf8f;
   cursor: pointer;
+  box-shadow: 10px 10px 15px #402721;
 }
 
 input[type=submit]:hover {
-  background-color: #735b46;
+  background-color: #260d0d;
+  color: rgb(238, 238, 148);
 }
 
 /* Style the container/contact section */
@@ -40,7 +42,8 @@ input[type=submit]:hover {
   padding: 10px;
 border:5px ridge #402721;
 max-width: 800px;
-margin:auto;}
+margin:auto;
+box-shadow: 10px 10px 15px #402721;}
 
 /*Create 2 columns that float next to eachother*/
 .column {
@@ -49,6 +52,7 @@ margin:auto;}
     margin-top: 6px;
     padding:20px;
     border:5px ridge #402721;
+    box-shadow: 10px 10px 15px #402721;
     
 }
 /*Clear floats after the columns*/
@@ -72,7 +76,8 @@ make the two columns stack on top of each other instead of next to each other */
 .navbar {display:flex;
 background-color: #260d0d;
 max-width: 1340px;
-border:5px ridge #402721;
+border:5px ridge #a69076;
+box-shadow: 10px 10px 15px #402721;
 }
 
  a {
@@ -82,5 +87,12 @@ color:#a69076;
 font-size:20px;
 text-align:center;
 border: 1px solid;
-margin: 3px;}
+margin: 3px;
+text-decoration:none;}
+
+a:hover {
+  color: rgb(238, 238, 148);
+}
+
+h1 {text-shadow: 10px 10px 15px #402721;}
 

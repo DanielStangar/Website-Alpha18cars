@@ -13,6 +13,7 @@
         background-color: #260d0d;
         max-width: 100%;
         border:5px ridge #402721;
+        box-shadow: 10px 10px 15px #402721;
         }
 
         a {
@@ -22,7 +23,13 @@
         font-size:20px;
         text-align:center;
         border: 1px solid;
-        margin: 3px;}
+        margin: 3px;
+    text-decoration: none;}
+
+
+        a:hover {
+  color: rgb(238, 238, 148);
+}
 
         
         img {
@@ -30,6 +37,7 @@
         height:auto;
         border:5px ridge #402721;
         margin-top:10px;
+        box-shadow: 10px 10px 15px #402721;
         }
 
         .text {margin-right:auto;
@@ -39,7 +47,10 @@
     color:#260d0d;
         border:5px ridge #402721;
     padding:15px;
-    background-color:#bfaf8f;}
+    background-color:#bfaf8f;
+box-shadow: 10px 10px 15px #402721;}
+
+
 
         @media screen and (max-width: 450px) {
         .navbar {   
